@@ -1,6 +1,6 @@
 # <div align='center'></div>
 
-Taskify is a productivity app for my daily task activity. To see a live [demo](https://socialsow.netlify.app/).
+Taskify is a productivity app for my daily task activity.
 
 ## Tech Stack
 
@@ -11,9 +11,7 @@ Taskify is a productivity app for my daily task activity. To see a live [demo](h
 ## Features
 
 - Responsive design: A mobile-friendly interface for seamless usage on any device.
--
-
-## Next Planned Features
+- Mange Task: Dragabble Cards to move task according to progress
 
 ## To Run it Locally
 

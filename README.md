@@ -1,6 +1,7 @@
-# <div align='center'></div>
+![taskify](https://github.com/henilGondalia/taskify/assets/34880491/e89a2b87-ad48-4d84-b281-36e6a940266d)
 
 Taskify is a productivity app for my daily task activity.
+
 
 ## Tech Stack
 

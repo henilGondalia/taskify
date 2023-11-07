@@ -29,7 +29,7 @@ export default function Header() {
   return (
     <header>
       <div className="flex flex-col md:flex-row items-center p-5 bg-white/40">
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-yellow-400 to-[#00BCD4] rounded-md filter blur-3x1 opacity-50 -z-50" />
+        <div className="absolute top-0 left-0 w-full h-full bg-slate-200 rounded-md filter blur-3x1 opacity-50 -z-50" />
 
         <Image
           src="/taskify.svg"

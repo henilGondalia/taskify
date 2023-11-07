@@ -33,7 +33,7 @@ export default function Column({ id, todos, index }: Props) {
               <div
                 ref={provided.innerRef}
                 {...provided.droppableProps}
-                className={`p-2 rounded-2xl shadow-sm ${
+                className={`p-2 rounded-2xl shadow-2xl ${
                   snapshot.isDraggingOver ? "bg-green-200" : "bg-white/80"
                 }`}
               >
@@ -50,7 +50,7 @@ export default function Column({ id, todos, index }: Props) {
                   </span>
                 </h2>
 
-                <div className="space-y-2">
+                <div className="space-y-2 pr-0.5 max-h-[70vh] overflow-y-scroll">
                   {todos.map((todo, index) => {
                     if (
                       searchString &&
@@ -80,7 +80,8 @@ export default function Column({ id, todos, index }: Props) {
                   })}
 
                   {provided.placeholder}
-                  <div className="flex items-end justify-end p-2">
+                </div>
+                <div className="flex items-end justify-end p-2">
                     <button
                       onClick={openModal}
                       className="text-green-500 hover:text-green-600"
@@ -88,7 +89,6 @@ export default function Column({ id, todos, index }: Props) {
                       <PlusCircleIcon className="h-10 w-10" />
                     </button>
                   </div>
-                </div>
               </div>
             )}
           </Droppable>

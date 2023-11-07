@@ -38,4 +38,4 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Stay tuned for updates on these exciting features! Don't forget to give us a star ⭐️
+Stay tuned for updates on these exciting features!⭐️
